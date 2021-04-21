@@ -1,1 +1,1 @@
-worker: python newser.py
+worker:python newser.py
