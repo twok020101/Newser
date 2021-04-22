@@ -66,7 +66,7 @@ def main():
                 final_string=(str(i+1)+": "+ news + "\nFor more information click on the link: " + FinalDict[news] +"\n")
                 telegram_sender(final_string,i)
         TotalNewsCovered+=i
-        time.sleep(3600*0.5)
+        time.sleep(3600*2)
 
 
 #Main function!
